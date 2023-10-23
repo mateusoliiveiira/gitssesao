@@ -1,11 +1,16 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Index.php</title>
+    <title>CRUD com MVC e PDO</title>
 </head>
 <body>
-    TESTE 01
+    <h1>Usuario</h1>
+    <form action="registro.php" method="post">
+        <input type="text" name="usuario" placeholder="Nome">
+        <input type="password" name="senha" placeholder="senha">
+        <input type="email" name="email" placeholder="email">
+        <button type="submit">Adicionar usuario</button>
+    </form>
 </body>
-</html>
+

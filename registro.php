@@ -20,13 +20,19 @@ if ($_SERVER ["REQUEST_METHOD"]== "POST") {
 
     $_SESSION["usuario"] = $usuario;
     header("Location: dashboard.php");
+    
+
 
 }
+
+
+
+   
 ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Cadastro</title>
+    <title>Cadastro de login</title>
 </head>
 <body>
     <h2>Cadastro</h2>
@@ -38,5 +44,8 @@ if ($_SERVER ["REQUEST_METHOD"]== "POST") {
         <br>
         <input type="submit" value="cadastrar"> 
     </form>
+
+    
+
 </body>
 </html>
